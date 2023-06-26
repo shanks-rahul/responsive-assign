@@ -1,0 +1,157 @@
+<!-- Q1-Q3 in 1 code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(36, 34, 34, 0.94);
+        }
+        .login{
+            margin: 7px 14px;
+        }
+        .list-item{
+            padding: 18px;
+            color: white;
+            text-decoration: none;
+        }
+        .btn{
+           background-color: greenyellow;
+           padding: 2px 14px; 
+        }
+        .check{
+            display: none;
+
+        }
+        .text{
+            font-size: 15px;
+        }
+        .text h1{
+            font-size: 2rem;
+        }
+        .text h4{
+            font-size: 1.3rem;
+        }
+        .text h6{
+            font-size: 1rem;
+        }
+        .photo{
+            
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            
+        }
+        footer h1{
+            color: blue;
+        }
+        footer h3{
+            color: white;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 76px 0;
+
+        }
+        section h1,h6{
+            color: skyblue;
+        }
+        section p{
+            width: 32rem;
+        }
+
+        @media screen and (max-width:530px){
+            header{
+                width: 32rem;
+            }
+            section{
+                width: 32rem;
+            }
+            .navbar{
+                display: none;
+            }
+            .btn{
+                display: none;
+            }
+            .check{
+                display: inline;
+                color: white;
+                margin-right: 2rem;
+                
+            }
+           
+            
+                
+            /* .text p{
+                width: 25rem;
+            } */
+            footer{
+                background-color: white;
+                width: 32rem;
+            }
+            footer h3{
+                color: black;
+            }
+            
+        }
+        
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Screenshot 2023-06-24 231630.png">
+        </div>
+        <div class="navbar">
+            <a href="" class="list-item">Home</a>
+            <a href="" class="list-item">Blog</a>
+            <a href="" class="list-item">About</a>
+            <a href="" class="list-item">Contact</a>
+        </div>
+        <div class="login">
+            <button class="btn">login</button>
+        </div>
+        <div class="check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            
+        </div>
+    </header>
+    <section>
+        <div class="text">
+            <h4>Say hi to</h4>
+            <h1>One Card</h1>
+            <h6>co-branded card issuers : </h6>
+            <img src="Screenshot 2023-06-25 204726.png">
+            <p>India's best metal credit card.Built with full-stack tech.Backed by the principle of simpplicity,transpasrency and giving back control to the user,</p>
+            
+        </div>
+        <div class="photo">
+            <img src="Screenshot 2023-06-24 231527.png">
+        </div>
+    </section>
+    <footer>
+        <h1>No Hidden Fees Ever</h1>
+        <h3>No joining fees</h3>
+        <h3>No annual fees</h3>
+        <h3>No reward redemption fees</h3>
+    </footer>
+</body>
+</html>
